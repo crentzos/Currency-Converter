@@ -1,0 +1,16 @@
+
+š
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(©îü³üÿÿÿÿJ$f18d0dd2-e6ef-4e6e-87b7-c9e98a8383d0
+‹
+java:S2095"JUse try-with-resources or close this "XSSFWorkbook" in a "finally" clause.(Åù…øÿÿÿÿJ$896028e2-d69f-4611-b314-49e552ec303a
+‰
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(³áºìJ$d4010b8e-9f70-4f5a-9066-497237dbb0ca
+Š
+java:S1854"IRemove this useless assignment to local variable "currencyExchangeRates".(©îü³üÿÿÿÿJ$66642280-6b42-4018-a1f0-3f50fd53ed08
+{
+java:S1481":Remove this unused "currencyExchangeRates" local variable.(©îü³üÿÿÿÿJ$34712366-7a38-4482-9300-ce8eb96b50fb
+g
+java:S1481"&Remove this unused "i" local variable.(ùó›ÌøÿÿÿÿJ$29311b4f-9eb5-4e13-ab5d-b7433fafe115
+i
+java:S1481"(Remove this unused "row" local variable.(ËØáùûÿÿÿÿJ$5218a89d-780a-40e0-9705-635a3de3be51
+i	java:S108")Either remove or fill this block of code.(ËØáùûÿÿÿÿJ$fed1c455-6679-47a7-99fd-d7c98d245d73
