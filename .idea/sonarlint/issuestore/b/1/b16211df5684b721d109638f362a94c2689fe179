@@ -1,5 +1,7 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(Ëï‡„8Ù©Ò°¨2
-G	java:S106"+Replace this use of System.out by a logger.(ÄÖ×Å8Ş©Ò°¨2
-L	java:S106"+Replace this use of System.out by a logger.(ğ°¦ıÿÿÿÿ8á©Ò°¨2
-G	java:S106"+Replace this use of System.out by a logger.(Ÿš™¡8æ©Ò°¨2
+‰
+java:S1854"ARemove this useless assignment to local variable "currencyRates".(üòğîûÿÿÿÿ8øß¥¹¨2J$f17b6582-e219-42b9-ab8a-96f44524078d
+m	java:S106"+Replace this use of System.out by a logger.(Ëï‡„8ÿ¦¤¹¨2J$cb0934b8-8b05-4fec-83af-f481e7966bf9
+m	java:S106"+Replace this use of System.out by a logger.(ÄÖ×Å8€§¤¹¨2J$54515417-527b-44c2-ad60-6bbdc8339258
+r	java:S106"+Replace this use of System.out by a logger.(ğ°¦ıÿÿÿÿ8§¤¹¨2J$e0493475-75e8-4db3-a4e3-86674ce24861
+m	java:S106!"+Replace this use of System.out by a logger.(Ÿš™¡8ƒ§¤¹¨2J$3bd43db4-4a1f-47ef-ba5a-46d44a552572
