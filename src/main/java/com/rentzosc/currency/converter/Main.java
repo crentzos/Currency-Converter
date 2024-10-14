@@ -12,9 +12,15 @@ public class Main {
         String currencyPair;
         Converter converter = new Converter();
         double convertedAmount;
+        /* String fileLocation = "C:\\Users\\Christos\\Desktop\\Web Developer\\Mini " +
+                "Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; */ // Desktop
+
+        String fileLocation = "C:\\Users\\RentzosC\\Desktop\\Web Developer\\Mini Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; // Laptop
         ReadExcelFile readExcelFile = new ReadExcelFile();
 
-        currencyRates = readExcelFile.getExcelFile();
+        currencyRates = readExcelFile.getExcelFile(fileLocation);
+
+        System.out.println(currencyRates);
 
         System.out.print("Enter amount you wish to convert: ");
         double amountInput = scanner.nextDouble();
