@@ -1,9 +1,10 @@
 package com.rentzosc.currency.converter;
 
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -12,9 +13,22 @@ public class Main {
         String currencyPair;
         Converter converter = new Converter();
         double convertedAmount;
+
+        Set currencyKeySet = new HashSet();
+
+        /* String fileLocation = "C:\\Users\\Christos\\Desktop\\Web Developer\\Mini " +
+                "Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; */ // Desktop
+
+        String fileLocation = "C:\\Users\\RentzosC\\Desktop\\Web Developer\\Mini Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; // Laptop
+
         ReadExcelFile readExcelFile = new ReadExcelFile();
 
-        currencyRates = readExcelFile.getExcelFile();
+
+
+        currencyRates = readExcelFile.getExcelFile(fileLocation);
+
+        currencyKeySet = currencyRates.keySet();
+
 
         System.out.print("Enter amount you wish to convert: ");
         double amountInput = scanner.nextDouble();

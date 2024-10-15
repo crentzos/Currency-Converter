@@ -10,10 +10,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ReadExcelFile {
-    String fileLocation = "C:\\Users\\Christos\\Desktop\\Web Developer\\Mini " +
-            "Projects\\Currency-Converter\\currency_exchange_rates.xlsx";
 
-    public Map<String, Double> getExcelFile() throws IOException {
+    public Map<String, Double> getExcelFile(String fileLocation) throws IOException {
         FileInputStream file = new FileInputStream(new File(fileLocation));
         Workbook workbook = new XSSFWorkbook(file);
 
