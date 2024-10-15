@@ -7,3 +7,17 @@ l
 <src/main/java/com/rentzosc/currency/converter/Converter.java,4\e\4ebff0867e182bfc1dd2b86e50b8b70159c92328
 p
 @src/main/java/com/rentzosc/currency/converter/ReadExcelFile.java,3\6\36bcf24912aad7a03662def39a552e6b40fdcf12
+F
+currency-converter.iml,8\c\8cb44688cd56345311ca1aa04a87b53e94b4a3ee
+m
+=src/main/java/com/rentzosc/currency/converter/ApiRequest.java,c\7\c734fa6d60c781e6ada6179bf89a4499a83e9692
+
+Q.idea/sonarlint/securityhotspotstore/8/c/8cb44688cd56345311ca1aa04a87b53e94b4a3ee,b\3\b31ecc2c29695f0c69d8d458e3be9d54889f39a1
+w
+G.idea/sonarlint/issuestore/8/c/8cb44688cd56345311ca1aa04a87b53e94b4a3ee,1\a\1abfba748941c2738a9e180c82bfd251a6f95ff5
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
+
+Q.idea/sonarlint/securityhotspotstore/c/7/c734fa6d60c781e6ada6179bf89a4499a83e9692,f\b\fbe4d94151aebb12844cb1d337dc1130a7bc4a8e

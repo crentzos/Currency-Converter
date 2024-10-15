@@ -1,7 +1,10 @@
 
-‰
-java:S1854"ARemove this useless assignment to local variable "currencyRates".(üòğîûÿÿÿÿ8øß¥¹¨2J$f17b6582-e219-42b9-ab8a-96f44524078d
-m	java:S106"+Replace this use of System.out by a logger.(Ëï‡„8ÿ¦¤¹¨2J$cb0934b8-8b05-4fec-83af-f481e7966bf9
-m	java:S106"+Replace this use of System.out by a logger.(ÄÖ×Å8€§¤¹¨2J$54515417-527b-44c2-ad60-6bbdc8339258
-r	java:S106"+Replace this use of System.out by a logger.(ğ°¦ıÿÿÿÿ8§¤¹¨2J$e0493475-75e8-4db3-a4e3-86674ce24861
-m	java:S106!"+Replace this use of System.out by a logger.(Ÿš™¡8ƒ§¤¹¨2J$3bd43db4-4a1f-47ef-ba5a-46d44a552572
+~	java:S125
+"<This block of commented-out lines of code should be removed.(Ú™¥Ú8ÍÍŠ©2J$7c11ca1e-9249-4483-b84a-2150bea036db
+r	java:S106%"+Replace this use of System.out by a logger.(ÏÕŞ‘üÿÿÿÿ8ÍÍŠ©2J$25a39208-2648-41c4-b25e-3e19e94eddd3
+v
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8‘ÍÍŠ©2J$86778f0d-86ae-442c-8e07-292b34c1921e
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8‘ÍÍŠ©2J$5b04343c-8b00-42c3-a05c-ed26c0ccc4a3
+v
+java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8’ÍÍŠ©2J$f19c0330-116f-45f7-8c4b-7dac491ab209

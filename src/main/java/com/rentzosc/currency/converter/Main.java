@@ -6,8 +6,8 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) throws IOException, InterruptedException {
+        /*Scanner scanner = new Scanner(System.in);
         Map<String, Double> currencyRates = new HashMap<>();
         String currencyPair;
         Converter converter = new Converter();
@@ -30,9 +30,11 @@ public class Main {
 
         convertedAmount = converter.getConvertedAmount(amountInput, currencyPair, currencyRates);
 
-        System.out.print(amountInput + inputCurrency + " is equal to " + convertedAmount + outputCurrency);
+        System.out.print(amountInput + inputCurrency + " is equal to " + convertedAmount + outputCurrency);*/
 
+        ApiRequest apiRequest = new ApiRequest();
 
+        System.out.println(apiRequest.getLatestExchangeRates());
 
 
     }
