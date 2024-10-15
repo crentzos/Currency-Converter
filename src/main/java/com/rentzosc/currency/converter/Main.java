@@ -19,7 +19,8 @@ public class Main {
         /* String fileLocation = "C:\\Users\\Christos\\Desktop\\Web Developer\\Mini " +
                 "Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; */ // Desktop
 
-        String fileLocation = "C:\\Users\\RentzosC\\Desktop\\Web Developer\\Mini Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; // Laptop
+        /*String fileLocation = "C:\\Users\\RentzosC\\Desktop\\Web Developer\\Mini " +
+                "Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; // Laptop
 
         ReadExcelFile readExcelFile = new ReadExcelFile();
 
