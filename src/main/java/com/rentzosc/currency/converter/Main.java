@@ -46,11 +46,8 @@ public class Main {
         convertedAmount = converter.getConvertedAmount(amountInput, currencyPair, currencyRates);
 
         System.out.print(amountInput + inputCurrency + " is equal to " + convertedAmount + outputCurrency);*/
-
         ApiRequest apiRequest = new ApiRequest();
-
         System.out.println(apiRequest.getLatestExchangeRates());
-
 
     }
 }
