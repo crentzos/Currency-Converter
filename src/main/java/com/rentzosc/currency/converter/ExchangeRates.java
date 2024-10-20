@@ -8,7 +8,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.Map;
 
-public class ApiRequest {
+public class ExchangeRates {
     private static final String ACCESS_KEY = "12e43d4641327706356da449e371330c";
     private static final String API_URI = "http://api.exchangeratesapi.io/v1/latest";
     ParseJson parseJson = new ParseJson();

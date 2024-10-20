@@ -1,53 +1,54 @@
 package com.rentzosc.currency.converter;
 
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.LogManager;
-
 import java.io.IOException;
 import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        /*Scanner scanner = new Scanner(System.in);
-        Map<String, Double> currencyRates = new HashMap<>();
-        String currencyPair;
+        Scanner scanner = new Scanner(System.in);
+
+        double inputAmount = 0;
+        String inputCurrency = "";
+        String outputCurrency = "";
+        double convertedAmount = 0;
+
+
+        ExchangeRates exchangeRates = new ExchangeRates();
         Converter converter = new Converter();
-        double convertedAmount;
+        Map<String, Double> currencyRates = exchangeRates.getLatestExchangeRates();
 
-        Set currencyKeySet = new HashSet();
+        while (true) {
+            try {
+                System.out.print("Enter amount you wish to convert: ");
+                inputAmount = scanner.nextDouble();
+                scanner.nextLine();
+            } catch (Exception ex) {
+                System.out.println("Invalid input amount. Please enter a number.");
+                scanner.nextLine();
+                continue;
+            }
 
-        /* String fileLocation = "C:\\Users\\Christos\\Desktop\\Web Developer\\Mini " +
-                "Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; */ // Desktop
+            System.out.print("Select the input currency: ");
+            inputCurrency = scanner.nextLine().toUpperCase();
+            if(!currencyRates.containsKey(inputCurrency)) {
+                System.out.println("Invalid currency code. Please try again.");
+                continue;
+            }
 
-        /*String fileLocation = "C:\\Users\\RentzosC\\Desktop\\Web Developer\\Mini " +
-                "Projects\\Currency-Converter\\currency_exchange_rates.xlsx"; // Laptop
+            System.out.print("Enter the output currency: ");
+            outputCurrency = scanner.nextLine().toUpperCase();
 
-        ReadExcelFile readExcelFile = new ReadExcelFile();
+            if (!currencyRates.containsKey(outputCurrency)) {
+                System.out.println("Invalid currency code. Please try again.");
+                continue;
+            }
 
+            break;
+        }
 
+        convertedAmount = converter.getConvertedAmount(inputAmount,inputCurrency, outputCurrency, currencyRates);
 
-        currencyRates = readExcelFile.getExcelFile(fileLocation);
-
-        currencyKeySet = currencyRates.keySet();
-
-
-        System.out.print("Enter amount you wish to convert: ");
-        double amountInput = scanner.nextDouble();
-        scanner.nextLine();
-
-        System.out.print("Select the input currency: ");
-        String  inputCurrency = scanner.nextLine().toUpperCase();
-
-        System.out.print("Enter the output currency: ");
-        String  outputCurrency = scanner.nextLine().toUpperCase();
-
-        currencyPair = inputCurrency + "_TO_" + outputCurrency;
-
-        convertedAmount = converter.getConvertedAmount(amountInput, currencyPair, currencyRates);
-
-        System.out.print(amountInput + inputCurrency + " is equal to " + convertedAmount + outputCurrency);*/
-        ApiRequest apiRequest = new ApiRequest();
-        System.out.println(apiRequest.getLatestExchangeRates());
+        System.out.printf("%.2f %s = %.2f %s%n", inputAmount, inputCurrency, convertedAmount, outputCurrency);
 
     }
 }
