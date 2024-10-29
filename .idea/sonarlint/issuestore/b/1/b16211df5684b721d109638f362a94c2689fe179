@@ -1,9 +1,9 @@
 
- 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8ú¦„Ôª2J$9ff53db9-d48b-456a-9bd0-ee4160149d50
-m	java:S106"+Replace this use of System.out by a logger.(Ëï‡„8‹§„Ôª2J$37807bc2-cca6-43c8-b954-67dc13e3717c
-m	java:S106"+Replace this use of System.out by a logger.(¯şÿî8Œ§„Ôª2J$fdc07d1e-c058-4bd1-a253-06340161e999
-m	java:S106"+Replace this use of System.out by a logger.(ÄÖ×Å8Œ§„Ôª2J$cfe2f27e-6efb-4af9-a2d3-873366823544
-r	java:S106""+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8§„Ôª2J$1a273626-1626-4915-a699-2a877532f787
-r	java:S106&"+Replace this use of System.out by a logger.(ğ°¦ıÿÿÿÿ8§„Ôª2J$80b117fc-0fff-47b8-b904-0cbd0729e25b
-r	java:S106*"+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8§„Ôª2J$769ff598-894a-4cea-94c6-558da696d3bc
-r	java:S1063"+Replace this use of System.out by a logger.(Óš¦Éùÿÿÿÿ8“§„Ôª2J$6ad936cf-d1c4-41e9-97d6-1d2a6144f7ec
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8—ŸÎ­2J$b468c9ef-a235-456e-a932-724ec416eee1
+m	java:S106"+Replace this use of System.out by a logger.(Ëï‡„8—ŸÎ­2J$8c3a480d-5a55-4e86-baa6-f7f8a6c6d053
+m	java:S106"+Replace this use of System.out by a logger.(¯şÿî8—ŸÎ­2J$046dfb22-8459-404a-9a1f-2ceb9dd5d9b8
+m	java:S106 "+Replace this use of System.out by a logger.(ÄÖ×Å8—ŸÎ­2J$3566d108-1690-4c30-8d84-aec308b8f340
+r	java:S106#"+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8—ŸÎ­2J$d4cdb7be-aad0-4a7b-a13b-57ca7bfcb076
+r	java:S106'"+Replace this use of System.out by a logger.(ğ°¦ıÿÿÿÿ8—ŸÎ­2J$fa1e3ddb-34e9-4c4c-84ac-7d40f98aca0d
+r	java:S106+"+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8‘—ŸÎ­2J$06425e9a-9f67-4b2f-9f90-144634210707
+r	java:S1064"+Replace this use of System.out by a logger.(Óš¦Éùÿÿÿÿ8’—ŸÎ­2J$5e7a33af-614e-4c4b-a1d8-7ef5100b4f69

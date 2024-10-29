@@ -1,0 +1,10 @@
+
+q
+java:S2440")Remove this instantiation of "ParseJson".(üÓ‚òüÿÿÿÿ8õöğÒª2J$f6fb67bf-227a-4a29-a08a-0b1d9f9d74df
+¦
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(±Ÿ—±ÿÿÿÿÿ8àÍÊÑª2J$d3e4245b-acdb-423b-a883-20a4a628cd78
+x
+java:S2209"5Change this instance-reference to a static reference.(¨Á¶ı8Œ÷ğÒª2J$ee209751-9e76-4209-8afa-cdb9079cfd5e
+r	java:S106"+Replace this use of System.out by a logger.(è¬€áşÿÿÿÿ8”ÏÊÑª2J$66cc924e-be1d-4d3b-a4a3-d10685e38869
+g
+java:S1168"$Return an empty map instead of null.(¥¹ï8 ĞÊÑª2J$572ba99f-422c-4cfb-baf5-a0be140752ed

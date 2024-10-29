@@ -1,7 +1,7 @@
 
 ‚
 java:S1118
-":Add a private constructor to hide the implicit public one.(ÕÌ…Çûÿÿÿÿ8ÕšÔª2J$c5ae16c5-34ab-42c4-947c-0865fff420b8
-r	java:S106"+Replace this use of System.out by a logger.(¬ÍÁéÿÿÿÿÿ8Ÿ›Ôª2J$3b507ce2-e2a8-4ddb-a954-fe4f16ce8ae1
+":Add a private constructor to hide the implicit public one.(ÕÌ…Çûÿÿÿÿ8ÕšÔª2J$be5e6c41-a8da-4316-8ddc-08e0ff548141
+r	java:S106"+Replace this use of System.out by a logger.(¬ÍÁéÿÿÿÿÿ8Ÿ›Ôª2J$586d279d-2bfe-47a3-98b6-a9abfd626697
 g
-java:S1168"$Return an empty map instead of null.(¥¹ï8 ›Ôª2J$e6c1a662-5ab3-490a-b475-aa911761132a
+java:S1168"$Return an empty map instead of null.(¥¹ï8 ›Ôª2J$b20011b1-7e93-4ddb-b9bb-0fb4cdd221a8

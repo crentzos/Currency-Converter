@@ -1,5 +1,5 @@
 
-¡
-java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(©îü³üÿÿÿÿ8›±“¹¨2J$90f6ed21-cd29-4f23-b110-4a869f6b6de9
-š
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ŸÛ‹”ùÿÿÿÿ8¸³“¹¨2J$7c4eb4f2-6ad3-428f-8c93-b89308405372
+
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(³áºì8ÅÉÛÊ­2J$e4ec4032-c362-4fec-9f30-aa9e70758137
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8æÉÛÊ­2J$23bdbcdc-883e-4e19-9ae5-bcae50cb545d

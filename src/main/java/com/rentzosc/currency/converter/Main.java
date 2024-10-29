@@ -17,6 +17,7 @@ public class Main {
         Converter converter = new Converter();
         Map<String, Double> currencyRates = exchangeRates.getLatestExchangeRates();
 
+
         while (true) {
             try {
                 System.out.print("Enter amount you wish to convert: ");

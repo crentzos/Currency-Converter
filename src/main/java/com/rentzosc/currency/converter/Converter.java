@@ -7,8 +7,7 @@ public class Converter {
                                      Map<String, Double> currencyRates) {
 
             double amountInEur = inputAmount / currencyRates.get(inputCurrency);
-            double convertedAmount = amountInEur * currencyRates.get(outputCurrency);
 
-            return convertedAmount;
+            return amountInEur * currencyRates.get(outputCurrency);
     }
 }
