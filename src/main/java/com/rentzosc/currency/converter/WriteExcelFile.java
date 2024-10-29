@@ -33,8 +33,7 @@ public class WriteExcelFile {
 
         for (int i = 0; i < excelValues.size(); i++) {
             inputAmount = excelValues.get(i);
-            convertedAmount = converter.getConvertedAmount(inputAmount, inputCurrency, outputCurrency,
-                    currencyRates);
+            convertedAmount = converter.getConvertedAmount(inputAmount, inputCurrency, outputCurrency);
             Row row = spreadsheet.createRow(i + 1);
             row.createCell(0).setCellValue(inputAmount);
             row.createCell(1).setCellValue(convertedAmount);

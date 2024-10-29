@@ -1,3 +1,7 @@
 
 }
-java:S1118":Add a private constructor to hide the implicit public one.(ÍÆë×8ÄêÒÎ­2J$091b5bf1-ce36-45d3-ac9a-c0fa347c749f
+java:S1118":Add a private constructor to hide the implicit public one.(ÍÆë×8ÄêÒÎ­2J$f8dea8f7-4372-4709-b806-7e3f21da9b8e
+„
+java:S1854"ARemove this useless assignment to local variable "currencyRates".(´æ¤·8æÂıÎ­2J$361108c1-864e-4df3-849c-0bdab2e4affa
+u
+java:S1481"2Remove this unused "currencyRates" local variable.(´æ¤·8„ÃıÎ­2J$0d157d4f-32da-45a5-aca8-50353bbc3344

@@ -47,7 +47,7 @@ public class Main {
             break;
         }
 
-        convertedAmount = converter.getConvertedAmount(inputAmount,inputCurrency, outputCurrency, currencyRates);
+        convertedAmount = converter.getConvertedAmount(inputAmount,inputCurrency, outputCurrency);
 
         System.out.printf("%.2f %s = %.2f %s%n", inputAmount, inputCurrency, convertedAmount, outputCurrency);
 
