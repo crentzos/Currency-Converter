@@ -10,14 +10,12 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.List;
-import java.util.Map;
 
 public class WriteExcelFile {
-    public static void insertToExcelFile(String inputCurrency, String outputCurrency) throws IOException, InterruptedException {
+    public void insertToExcelFile(String inputCurrency, String outputCurrency) throws IOException, InterruptedException {
         Workbook workbook = new XSSFWorkbook();
         ReadExcelFile readExcelFile = new ReadExcelFile();
         Converter converter = new Converter();
-        ExchangeRates exchangeRates = new ExchangeRates();
         List<Double> excelValues = readExcelFile.getValues("");
 
         double convertedAmount;
@@ -25,7 +23,6 @@ public class WriteExcelFile {
 
         Sheet spreadsheet = workbook.createSheet("Converted Values");
 
-        Map<String, Double> currencyRates = exchangeRates.getLatestExchangeRates();
 
         Row headerRow = spreadsheet.createRow(0);
         headerRow.createCell(0).setCellValue("Original Amount in "+ inputCurrency);
@@ -42,11 +39,12 @@ public class WriteExcelFile {
 
         //save the Excel file
         try {
-            FileOutputStream out = new FileOutputStream(new File("excel.xlsx"));
+            FileOutputStream out = new FileOutputStream(new File("C:\\Users\\RentzosC\\Desktop\\Web Developer\\Mini Projects\\Currency-Converter\\Conversion Output.xlsx"));
             workbook.write(out);
             out.close();
         } catch (Exception e) {
             e.printStackTrace();
+            System.out.println("An error occurred while creating excel file");
         }
     }
 }

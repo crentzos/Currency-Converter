@@ -1,5 +1,6 @@
 package com.rentzosc.currency.converter;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.*;
 
@@ -11,10 +12,14 @@ public class Main {
         String inputCurrency = "";
         String outputCurrency = "";
         double convertedAmount = 0;
+        String inputFileLocation = "";
 
 
         ExchangeRates exchangeRates = new ExchangeRates();
         Converter converter = new Converter();
+        ReadExcelFile readExcelFile = new ReadExcelFile();
+        WriteExcelFile writeExcelFile = new WriteExcelFile();
+        List<Double> excelValues;
         Map<String, Double> currencyRates = exchangeRates.getLatestExchangeRates();
 
 
@@ -44,7 +49,27 @@ public class Main {
                 continue;
             }
 
+            System.out.println("Enter file path you wish to convert.");
+            inputFileLocation = scanner.nextLine();
+            if (inputFileLocation.isEmpty()) {
+                System.out.println("Invalid file path. Please try again.");
+                continue;
+            }
+
+            File file = new File(inputFileLocation);
+            if(!file.exists() || !inputFileLocation.endsWith(".xlsx")) {
+                System.out.println("File does not exist. Please try again.");
+                continue;
+            }
+
             break;
+        }
+
+        excelValues = readExcelFile.getValues(inputFileLocation);
+        for (int i=0; i<excelValues.size(); i++) {
+            convertedAmount = converter.getConvertedAmount(excelValues.get(i), inputCurrency, outputCurrency);
+            writeExcelFile.insertToExcelFile(inputCurrency);
+
         }
 
         convertedAmount = converter.getConvertedAmount(inputAmount,inputCurrency, outputCurrency);
