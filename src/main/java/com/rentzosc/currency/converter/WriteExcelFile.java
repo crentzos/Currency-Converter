@@ -12,11 +12,13 @@ import java.io.IOException;
 import java.util.List;
 
 public class WriteExcelFile {
-    public void insertToExcelFile(String inputCurrency, String outputCurrency) throws IOException, InterruptedException {
+    public void insertToExcelFile(String inputCurrency, String outputCurrency, String inputFileLocation,
+                                  String outputFileLocation) throws IOException,
+            InterruptedException {
         Workbook workbook = new XSSFWorkbook();
         ReadExcelFile readExcelFile = new ReadExcelFile();
         Converter converter = new Converter();
-        List<Double> excelValues = readExcelFile.getValues("");
+        List<Double> excelValues = readExcelFile.getValues(inputFileLocation);
 
         double convertedAmount;
         double inputAmount;
@@ -39,7 +41,7 @@ public class WriteExcelFile {
 
         //save the Excel file
         try {
-            FileOutputStream out = new FileOutputStream(new File("C:\\Users\\RentzosC\\Desktop\\Web Developer\\Mini Projects\\Currency-Converter\\Conversion Output.xlsx"));
+            FileOutputStream out = new FileOutputStream(new File(outputFileLocation));
             workbook.write(out);
             out.close();
         } catch (Exception e) {
