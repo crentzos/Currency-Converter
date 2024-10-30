@@ -14,41 +14,40 @@ public class UserInput {
         Map<String, Double> currencyRates = exchangeRates.getLatestExchangeRates();
         UserInputData userInputData = new UserInputData();
 
+        System.out.println("Enter 1 for single value conversion or anything else for multiple values from an " +
+                "Excel file:");
+        int conversionType = scanner.nextInt();
+        scanner.nextLine();
 
+        userInputData.setSingleValueConversion(conversionType == 1);
 
         while (true) {
-            System.out.println("Enter 1 for single value conversion or anything else for multiple values from an " +
-                    "Excel file:");
-            int conversionType = scanner.nextInt();
-            scanner.nextLine();
-
-            userInputData.setSingleValueConversion(conversionType == 1);
-
-            try {
-                System.out.print("Enter amount you wish to convert: ");
-                userInputData.setInputAmount(scanner.nextDouble());
-                scanner.nextLine();
-            } catch (Exception ex) {
-                System.out.println("Invalid input amount. Please enter a number.");
-                scanner.nextLine();
-                continue;
-            }
-
             System.out.print("Select the input currency: ");
             userInputData.setInputCurrency(scanner.nextLine().toUpperCase());
-            if(!currencyRates.containsKey(userInputData.getInputCurrency())) {
+            if (!currencyRates.containsKey(userInputData.getInputCurrency())) {
                 System.out.println("Invalid currency code. Please try again.");
                 continue;
             }
 
             System.out.print("Enter the output currency: ");
-             userInputData.setOutputCurrency(scanner.nextLine().toUpperCase());
+            userInputData.setOutputCurrency(scanner.nextLine().toUpperCase());
             if (!currencyRates.containsKey(userInputData.getOutputCurrency())) {
                 System.out.println("Invalid currency code. Please try again.");
                 continue;
             }
 
-            if (!userInputData.isSingleValueConversion()) {
+            if (userInputData.isSingleValueConversion()) {
+                try {
+                    System.out.print("Enter amount you wish to convert: ");
+                    userInputData.setInputAmount(scanner.nextDouble());
+                    scanner.nextLine();
+                } catch (Exception ex) {
+                    System.out.println("Invalid input amount. Please enter a number.");
+                    scanner.nextLine();
+                    continue;
+                }
+
+            } else {
                 System.out.println("Enter file path you wish to convert.");
                 userInputData.setInputFileLocation(scanner.nextLine());
                 if (userInputData.getInputFileLocation().isEmpty()) {
@@ -72,6 +71,7 @@ public class UserInput {
                 if (!userInputData.getOutputFileLocation().endsWith(".xlsx")) {
                     System.out.println("Please select excel file");
                     continue;
+
                 }
             }
 

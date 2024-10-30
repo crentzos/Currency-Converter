@@ -1,17 +1,17 @@
 
- 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8©³æø­2J$c3e6aac5-2b7c-474a-a69d-8867f94d3e65
+ 	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(˜ïˆÿÿÿÿÿ8Ÿºƒù­2J$e515bc0e-a83a-424d-a4b9-8220baeee2b2
 •
-java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(§±­¾8»³æø­2J$d05dc868-a75f-414c-b45f-211a5addc8af
-r	java:S106"+Replace this use of System.out by a logger.(İî³ãûÿÿÿÿ8ç³æø­2J$4207a9be-424e-40ef-b4b8-a1f8fae53411
-m	java:S106"+Replace this use of System.out by a logger.(Ëï‡„8è³æø­2J$79622a23-7fea-49a5-ab91-c3db073534e1
-m	java:S106 "+Replace this use of System.out by a logger.(¯şÿî8ê³æø­2J$a592e73f-f05c-4fd0-97ec-4f82f72d9ca7
-m	java:S106%"+Replace this use of System.out by a logger.(ÄÖ×Å8ë³æø­2J$ea0950e6-33d5-46c3-be32-6a613110d4c7
-r	java:S106("+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8í³æø­2J$60e9de05-734e-4ce5-8fdf-52c247f60f2d
-r	java:S106,"+Replace this use of System.out by a logger.(ğ°¦ıÿÿÿÿ8ğ³æø­2J$0ef78a8f-dd10-4db9-bf78-6160ef16dc0d
-r	java:S106/"+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8ò³æø­2J$6a849fba-0c5d-4ad3-84f2-003208075b84
-m	java:S1064"+Replace this use of System.out by a logger.(ûœÖÏ8ö³æø­2J$94d1966f-c806-49a1-95fa-db7c1997a292
-l	java:S1067"+Replace this use of System.out by a logger.(•¼ç"8ø³æø­2J$c7239d39-81ab-4939-87ef-5d4b9d0efa05
-m	java:S106="+Replace this use of System.out by a logger.(˜Ôèİ8€´æø­2J$83e51a81-707c-47ce-be87-f6b2582e6df1
-m	java:S106A"+Replace this use of System.out by a logger.(•­æ˜8‚´æø­2J$657a0c12-992e-4f82-8ba8-527f2178c681
-l	java:S106D"+Replace this use of System.out by a logger.(•¼ç"8†´æø­2J$ae6529a3-3dbc-4543-9773-ac66eeced24b
-m	java:S106I"+Replace this use of System.out by a logger.(ñîÈÇ8Š´æø­2J$fbc1a189-a4e5-412e-9a7c-70bb7324a85c
+java:S3776	"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(§±­¾8Îºƒù­2J$cb51d1d3-dec9-4fe0-b868-674add5d6b70
+r	java:S106"+Replace this use of System.out by a logger.(İî³ãûÿÿÿÿ8Öºƒù­2J$ac7d901d-0708-4184-b1d1-e796527584db
+m	java:S106"+Replace this use of System.out by a logger.(ÄÖ×Å8Ùºƒù­2J$c9f91ce4-cd60-4170-8438-3353b148c646
+r	java:S106"+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8Ùºƒù­2J$1b7bdb28-1430-42b2-b9d5-edc8869d4fc3
+r	java:S106 "+Replace this use of System.out by a logger.(ğ°¦ıÿÿÿÿ8Üºƒù­2J$68dc0d0d-82e6-4ace-a374-4fe90e04b04e
+r	java:S106#"+Replace this use of System.out by a logger.(ÿÌµĞùÿÿÿÿ8İºƒù­2J$a270cae5-7f89-446a-8406-a52d554eb9d4
+m	java:S106)"+Replace this use of System.out by a logger.(Ëï‡„8óö®ù­2J$4450274e-d086-4992-a5dd-b983e281c5eb
+m	java:S106-"+Replace this use of System.out by a logger.(¯şÿî8ôö®ù­2J$46a141e7-7ffb-48a1-b368-7e18f4b67e94
+m	java:S1063"+Replace this use of System.out by a logger.(ûœÖÏ8úö®ù­2J$1a04fbd0-fbc9-4290-af82-468fbc148aa8
+l	java:S1066"+Replace this use of System.out by a logger.(•¼ç"8úö®ù­2J$8839919a-a099-4849-a421-8205ff05a256
+m	java:S106<"+Replace this use of System.out by a logger.(˜Ôèİ8üö®ù­2J$7416ab3e-a234-42fd-9b90-e0412619f1db
+m	java:S106@"+Replace this use of System.out by a logger.(•­æ˜8ıö®ù­2J$ac2bea3a-0464-4db5-a53f-adf9be57a050
+l	java:S106C"+Replace this use of System.out by a logger.(•¼ç"8ıÑ³ù­2J$421ed6ac-9d5a-4af7-8faa-e927c7c6a4f0
+m	java:S106H"+Replace this use of System.out by a logger.(ñîÈÇ8Ä ´ù­2J$142eee33-1740-44bd-a1c0-8c65f042517a
