@@ -24,6 +24,6 @@ public class ParseJson {
             ex.printStackTrace();
             System.out.println("An error occurred while extracting rates");
         }
-        return null;
+        return Collections.emptyMap();
     }
 }
